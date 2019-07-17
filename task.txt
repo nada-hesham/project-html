@@ -1,0 +1,64 @@
+html table.
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+table {font-amily:arial,sans-serif;
+border-collapse:collapse;
+width:100%;}
+td,th{border:1px solid#ddddd;
+text-align:left;
+padding:8px;}
+tr:nth-child(even){background-color;#ddddd;}
+</style>
+</head>
+<body>
+<h2>html table</h2>
+<table>
+<tr>
+<th>company</th>
+<th>contact</th>
+<th>country</th>
+</tr>
+<tr>
+<td>alfreds futterkiste</td>
+<td>maria anders</td>
+<td>germany</td>
+</tr>
+<tr>
+<td>ernst handel</td>
+<td>roland mendel</td>
+<td>austria</td>
+</tr>
+</table>
+</doby>
+</html>
+
+html list.
+<h2>anunordered html list</h2>
+<ul style="list-style-type:disc;">
+<li>coffee</li>
+<li>tea</li>
+<li>milk</li>
+</ul>
+
+html id&class
+<style>/* style the element with the id "my header"*/
+#my header{background-color:lightblue;
+color:black;
+padding:40px;
+text-align:center;}
+/*style all elements with the class name"city"*/
+city {background-color:tomato;
+color:white;
+padding:10px;}
+</style>
+<body>
+<h2>difference between class and id </h2>
+<!-- a unique element-->
+<h1 id="my header">my cities</h1>
+<!-- multile similar element-->
+<h2 class="city">london</h2>
+</body>
+<p>london is the capital of england.</p>
+</body>
